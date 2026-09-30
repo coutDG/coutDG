@@ -53,7 +53,7 @@
 
 <img src="https://raw.githubusercontent.com/coutDG/coutDG/output/aizen-snake.svg" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coutDG&bg_color=0d0d0d&color=b388ff&line=7c4dff&point=ffffff&area=true&area_color=7c4dff&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=coutDG&bg_color=1a1033&color=b388ff&line=7c4dff&point=ffffff&area=true&area_color=7c4dff&hide_border=true" />
 
 </div>
 
