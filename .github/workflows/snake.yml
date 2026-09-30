@@ -1,1 +1,28 @@
+name: Generate Aizen Snake
 
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [update-graph]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/aizen-snake.svg?palette=github-dark&color_snake=b388ff&color_dots=161b22,3b2a5e,5e3fa3,7c4dff,b388ff
+
+      - uses: crazy-max/github-pages-deploy-action@v4
+        with:
+          branch: output
+          folder: dist
