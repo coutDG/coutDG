@@ -2,6 +2,8 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:7c4dff&height=230&section=header&text=DERIVE.%20BUILD.%20DEPLOY.&fontColor=ffffff&fontSize=38&animation=fadeIn&fontAlignY=38&desc=Everything%20was%20trained%20exactly%20as%20planned&descSize=18&descAlignY=60" />
 
+<!-- <img src="./assets/shatter-banner.svg" width="100%" /> -->
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=B388FF&center=true&vCenter=true&width=700&lines=Gagan+%7C+AI%2FML+Engineer;Gradient+descent+is+just+patience+with+a+plan;C%2B%2B+%7C+Python+%7C+PyTorch+%7C+SQL+%7C+PySpark;Is+this+model+real%3F+Or+an+illusion%3F" />
 
 <br/><br/>
