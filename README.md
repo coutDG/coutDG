@@ -9,11 +9,44 @@
 <br/><br/>
 
 
-<img src="./assets/aizen-hero.gif" width="450" />
+<img src="./assets/aizen-hero.gif" width="300" />
 
 </div>
 
 ---
+
+## About me
+
+<div align="center">
+
+I'm an AI/ML enthusiast who loves turning data into insights and ideas into working projects. I enjoy understanding what's happening under the hood—not just using models, but figuring out why they work, where they break, and how to improve them.
+
+
+Most of my learning happens through building, experimenting, and occasionally breaking things spectacularly. When I'm not coding, I'm probably learning something new, working on a side project, or wondering why fixing one bug created three more.
+
+
+**Always building. Always learning. Always curious.**
+
+
+<br/>
+
+</div>
+
+
+
+## First Principles, Always
+
+<div align="center">
+
+I like to understand things from the ground up. Before I use a library, I want to know what it's doing underneath.
+That means deriving the math, building models from scratch and only then reaching for the framework.
+
+<br/>
+
+**Derive it. Build it. Break it. Then use the library.**
+
+</div>
+
 
 ## Tools
 
@@ -48,18 +81,7 @@
 
 </div>
 
-## First Principles, Always
 
-<div align="center">
-
-I like to understand things from the ground up. Before I use a library, I want to know what it's doing underneath.
-That means deriving the math, building models from scratch (linear regression, gradient descent, regularisation) and only then reaching for the framework.
-
-<br/>
-
-**Derive it. Build it. Break it. Then use the library.**
-
-</div>
 
 ### Built from scratch
 
