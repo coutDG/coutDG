@@ -28,8 +28,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=coutDG&show_icons=true&bg_color=0d0d0d&title_color=b388ff&text_color=ffffff&icon_color=7c4dff&border_color=7c4dff" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coutDG&layout=compact&bg_color=0d0d0d&title_color=b388ff&text_color=ffffff&border_color=7c4dff" />
+<img width="400" src="https://github-readme-stats.vercel.app/api?username=coutDG&show_icons=true&include_all_commits=true&card_width=400&bg_color=1a1033&title_color=b388ff&text_color=ffffff&icon_color=7c4dff&border_color=7c4dff" />
+<img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=coutDG&layout=compact&card_width=400&bg_color=1a1033&title_color=b388ff&text_color=ffffff&border_color=7c4dff" />
 
 </div>
 
