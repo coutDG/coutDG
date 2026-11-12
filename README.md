@@ -52,17 +52,6 @@
 
 <br /><br />
 
-
-
-
-
-
-<br />
-
-<a href="https://github.com/coutdg">🧭 Visit the captain</a>
-
-<br /><br />
-
 <img src="assets/footer.png" width="100%" alt="Not all treasure is silver and gold." />
 
 </div>
