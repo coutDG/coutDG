@@ -53,7 +53,7 @@
 <br /><br />
 
 <a href="https://www.linkedin.com/in/gagan-29016425a/"><img src="assets/linkedin-tab.svg" width="48%" alt="LinkedIn — connect with Gagan" /></a>
-<img src="assets/portfolio-tab.svg" width="48%" alt="Portfolio — website link coming later" />
+<img src="assets/portfolio-tab.svg" width="48%" alt="Portfolio(Coming soon)" />
 <!-- Add an anchor around the Portfolio image when the website URL is ready. -->
 
 
