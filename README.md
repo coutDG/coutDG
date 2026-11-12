@@ -6,7 +6,7 @@
 
 <img src="assets/profile-signal.svg" width="100%" alt="Public repositories and contributions in the last year" />
 
-<img src="assets/treasured-projects.png" width="100%" alt="Treasured Projects" />
+<img src="assets/treasured-projects-bordered.png" width="100%" alt="Treasured Projects" />
 
 <table>
 <tr>
@@ -44,7 +44,7 @@
 
 <br />
 
-<img src="assets/toolkit-expanded.png" width="100%" alt="Tools of the Trade — Python, Jupyter, PyTorch, TensorFlow, PostgreSQL, Hugging Face, Kubernetes, Docker, MLflow, YOLO, OpenCV, NumPy, Pandas, Scikit-learn, Git" />
+<img src="assets/toolkit-bordered.png" width="100%" alt="Tools of the Trade — Python, Jupyter, PyTorch, TensorFlow, PostgreSQL, Hugging Face, Kubernetes, Docker, MLflow, YOLO, OpenCV, NumPy, Pandas, Scikit-learn, Git" />
 
 <img src="assets/voyage-heading.svg" width="100%" alt="Voyage Activity — the treasure trail of contributions" />
 
