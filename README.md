@@ -50,8 +50,6 @@
 
 <img src="assets/contribution-snake.svg" width="100%" alt="Gold contribution snake, generated from coutdg’s GitHub contribution calendar" />
 
-<sub>A golden sea serpent sails through the contribution calendar · refreshed daily</sub>
-
 <br /><br />
 
 
@@ -61,7 +59,7 @@
 
 <br />
 
-<a href="https://github.com/coutdg?tab=repositories">⚓ Explore the fleet</a> · <a href="https://github.com/coutdg">🧭 Visit the captain</a>
+<a href="https://github.com/coutdg">🧭 Visit the captain</a>
 
 <br /><br />
 
