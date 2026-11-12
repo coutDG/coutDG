@@ -1,0 +1,50 @@
+name: Refresh the pirate fleet
+
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_repos.py'
+      - 'scripts/frame_snake.py'
+      - '.github/workflows/update-repos.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pirate-profile-repos
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update repository cards and links
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: coutdg
+        run: python scripts/update_repos.py
+      - name: Generate the golden contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: coutdg
+          github_token: ${{ github.token }}
+          outputs: |
+            assets/contribution-snake.svg?color_snake=#f4d58b&color_dots=#132426,#493d29,#806235,#ba8b42,#f0c66b
+      - name: Add the dark nautical background
+        run: python scripts/frame_snake.py
+      - name: Commit changed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/repos assets/contribution-snake.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh pirate repository manifest"
+            git push
+          fi
