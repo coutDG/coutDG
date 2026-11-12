@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/update_repos.py'
       - 'scripts/frame_snake.py'
+      - 'scripts/update_stats.py'
       - '.github/workflows/update-repos.yml'
 
 permissions:
@@ -30,6 +31,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PROFILE_USERNAME: coutdg
         run: python scripts/update_repos.py
+      - name: Refresh contribution and repository counts
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: coutdg
+        run: python scripts/update_stats.py
       - name: Generate the golden contribution snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -43,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/repos assets/contribution-snake.svg
+          git add README.md assets/repos assets/contribution-snake.svg assets/profile-signal.svg
           if ! git diff --cached --quiet; then
             git commit -m "Refresh pirate repository manifest"
             git push

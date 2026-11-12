@@ -4,6 +4,8 @@
 
 <img src="assets/captains-log-data-science.png" width="100%" alt="The Captain’s Log — Turning data into insights with data science. Exploring machine learning, one voyage at a time." />
 
+<img src="assets/profile-signal.svg" width="100%" alt="Public repositories and contributions in the last year" />
+
 <img src="assets/treasured-projects.png" width="100%" alt="Treasured Projects" />
 
 <table>
@@ -39,27 +41,14 @@
 </tr>
 </table>
 
-<details>
-<summary>🧭 Open the full repository manifest</summary>
 
-- [SCRATCH-DL-MODELS](https://github.com/coutDG/SCRATCH-DL-MODELS)
-- [Deep-learning-Campus-X](https://github.com/coutDG/Deep-learning-Campus-X)
-- [MLOps-Tutorials](https://github.com/coutDG/MLOps-Tutorials)
-- [ML-models-from-scratch-](https://github.com/coutDG/ML-models-from-scratch-)
-- [Trees-case-study-](https://github.com/coutDG/Trees-case-study-)
-- [Machine-learning-CampusX](https://github.com/coutDG/Machine-learning-CampusX)
-- [Data-Science-Projects](https://github.com/coutDG/Data-Science-Projects)
-- [Fine-Tuning-Pegasus](https://github.com/coutDG/Fine-Tuning-Pegasus)
-- [PDF-Manager](https://github.com/coutDG/PDF-Manager)
 
-</details>
 
-<sub>Public repositories · latest pushes first · refreshed daily by GitHub Actions</sub>
 <!-- REPOS:END -->
 
 <br />
 
-<img src="assets/toolkit.png" width="100%" alt="Tools of the Trade — Python, Jupyter, Machine Learning, Deep Learning" />
+<img src="assets/toolkit-expanded.png" width="100%" alt="Tools of the Trade — Python, Jupyter, PyTorch, TensorFlow, PostgreSQL, Hugging Face, Kubernetes, Docker, MLflow, YOLO, OpenCV, NumPy, Pandas, Scikit-learn, Git" />
 
 <img src="assets/voyage-heading.svg" width="100%" alt="Voyage Activity — the treasure trail of contributions" />
 

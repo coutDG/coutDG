@@ -3,7 +3,6 @@ import html
 import json
 import os
 from pathlib import Path
-import re
 import textwrap
 import urllib.request
 
@@ -63,11 +62,7 @@ def update(repos):
             pieces.append('</tr>')
     if len(repos[:8]) % 2:
         pieces.append('<td width="50%"></td></tr>')
-    pieces += ['</table>', '', '<details>', '<summary>🧭 Open the full repository manifest</summary>', '']
-    for repo in repos:
-        label = re.sub(r'([\\`*{}\[\]<>()_!|])', r'\\\1', repo['name'])
-        pieces.append(f"- [{label}]({repo['html_url']})")
-    pieces += ['', '</details>', '', '<sub>Public repositories · latest pushes first · refreshed daily by GitHub Actions</sub>']
+    pieces.append('</table>')
     if not repos:
         pieces = ['<p>The fleet is preparing for its next voyage. No public repositories found.</p>']
     readme = ROOT / 'README.md'
