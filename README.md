@@ -40,10 +40,6 @@
 <td width="50%"><a href="https://github.com/coutDG/Fine-Tuning-Pegasus"><img src="assets/repos/1375603691.svg" width="100%" alt="Fine-Tuning-Pegasus — open repository" /></a></td>
 </tr>
 </table>
-
-
-
-
 <!-- REPOS:END -->
 
 <br />
