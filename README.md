@@ -19,7 +19,7 @@
 </tr>
 </table>
 
-### ⚓ The Fleet — Auto-updated Repositories
+### Fleet - More Repos
 
 <!-- REPOS:START -->
 <table>
