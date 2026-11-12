@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/captain-header.png" width="100%" alt="Captain Gagan — @coutdg — AI / ML Engineer. Charting the seas of code." />
+<img src="assets/newbanner.png" width="100%" alt="Captain Gagan — @coutdg — Data Scientist &amp; ML Engineer" />
 
 <img src="assets/captains-log-data-science.png" width="100%" alt="The Captain’s Log — Turning data into insights with data science. Exploring machine learning, one voyage at a time." />
 
