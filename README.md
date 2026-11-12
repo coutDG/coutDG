@@ -50,14 +50,9 @@
 
 <img src="assets/contribution-snake.svg" width="100%" alt="Gold contribution snake, generated from coutdg’s GitHub contribution calendar" />
 
-<br /><br />
-
 <a href="https://www.linkedin.com/in/gagan-29016425a/"><img src="assets/linkedin-tab.svg" width="48%" alt="LinkedIn — connect with Gagan" /></a>
 <img src="assets/portfolio-coming-soon.svg" width="48%" alt="Portfolio(Coming soon)" />
 <!-- Add an anchor around the Portfolio image when the website URL is ready. -->
-
-
-<br /><br />
 
 <img src="assets/footer.png" width="100%" alt="Not all treasure is silver and gold." />
 
