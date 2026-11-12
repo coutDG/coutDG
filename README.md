@@ -52,6 +52,13 @@
 
 <br /><br />
 
+<a href="https://www.linkedin.com/in/gagan-29016425a/"><img src="assets/linkedin-tab.svg" width="48%" alt="LinkedIn — connect with Gagan" /></a>
+<img src="assets/portfolio-tab.svg" width="48%" alt="Portfolio — website link coming later" />
+<!-- Add an anchor around the Portfolio image when the website URL is ready. -->
+
+
+<br /><br />
+
 <img src="assets/footer.png" width="100%" alt="Not all treasure is silver and gold." />
 
 </div>
